@@ -14,7 +14,7 @@ new Quotes(2,"Don't be afraid to give up the god to go for the great","John D. R
 new  Quotes(3,"A wise man changes his mind but a fool never will","Icelandic Proverb","wanjugu",new Date(2020,8,12))]
 
 
-goaldelete(isComplete: any,index: any){
+quotedelete(isComplete: any,index: any){
   if(isComplete){
     this.quotesr.splice(index,1)
   }
