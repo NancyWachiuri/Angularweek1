@@ -1,15 +1,14 @@
 <div class="container-fluid">
-    <h4 class="text-center">Create a new Quote</h4>
     <hr>
     <form (ngSubmit)='submitQuote(quoteData.value)' #quoteData='ngForm'>
         
         
         <div class="form-group">
   
-            <label for="sentence">Quote</label>
+            <label for="sentence">New Quote</label>
             <textarea class="form-control" id="sentence" rows="4" [(ngModel)]="newQuote.sentence" name="sentence" #name='ngModel' required></textarea>
             <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-                <p>Name is required</p>
+                <p>Quote is required</p>
               </div>
 
         </div>
@@ -35,7 +34,7 @@
             <label for="complete">Date</label>
             <input type='date' id="complete" required>
             <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-                <p>Name is required</p>
+                <p>Date is required</p>
               </div>
             <button type="submit" value="Submit">Submit</button>
         </div>

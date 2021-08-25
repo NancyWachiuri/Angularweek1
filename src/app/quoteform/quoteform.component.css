@@ -1,5 +1,5 @@
 form {
-    height: 100%;
+    height: 50%;
     background-repeat: no-repeat;
     background-position: center;
     width: 30%;
@@ -8,16 +8,27 @@ form {
     margin-left: 25%;
     margin-right:25%;
     width: 50%;
+}
 
-    
-   }
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+textarea {
+  width: 611px;
+  height: 75px;
+}
+
+button {
+ 
+  background-color: rgb(56, 163, 163); /* Green */
+  border: none;
+  color: white;
+  padding: 12px 28px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 80px;
+  cursor: pointer;
+  border-radius: 12px
+
+  
+}
+
