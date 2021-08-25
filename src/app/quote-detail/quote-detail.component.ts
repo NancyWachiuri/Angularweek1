@@ -10,9 +10,18 @@ export class QuoteDetailComponent implements OnInit {
 @Input() quotess!:Quotes
 @Output () isComplete=new EventEmitter<boolean>()
 
-deletegoal(complete:boolean){
+deleteQuote(complete:boolean){
   this.isComplete.emit(complete)
 }
+
+//upVote(complete:boolean){
+//this.isComplete.emit(return)
+//{
+
+//downVote(complete:boolean){
+//this.isComplete.emit(return)
+ // {
+
   constructor() { }
 
   ngOnInit(): void {

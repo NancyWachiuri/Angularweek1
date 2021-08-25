@@ -1,8 +1,11 @@
-<p>quote-detail works!</p>
+<body>
+<p>Quote :{{quotess.sentence}}</p>
 <p>The authour is {{quotess.authour}}</p>
-<p>The submitted by: is {{quotess.submittedby}}</p>
-<p>Date submitted:{{quotess.dateadded|date}}</p>
+<p>Submitted by: is {{quotess.submittedby}}</p>
+<p>Date added:{{quotess.dateadded|date}}</p>
 <p>submitted :{{quotess.dateadded|dateCount}} days ago</p>
-<button (click)='deletegoal(true)'>Delete goal</button>
-<!-- <button (click)='upvote()'>upvote</button>
+<button (click)='deleteQuote(true)'>Delete quote</button>
+</body>
+
+<!--<button (click)='upvote()'>upvote</button>
 <button (click)='downvote()'>downvote</button> -->
