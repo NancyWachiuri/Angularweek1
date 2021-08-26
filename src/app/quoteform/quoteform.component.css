@@ -1,18 +1,15 @@
 form {
-    height: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 30%;
+   
     background-size: unset;
-    color:black;
+    color: white;
     margin-left: 25%;
     margin-right:25%;
     width: 50%;
+    
 }
 
-textarea {
-  width: 611px;
-  height: 75px;
+textarea{
+  height: 10px;
 }
 
 button {
@@ -31,4 +28,5 @@ button {
 
   
 }
+
 

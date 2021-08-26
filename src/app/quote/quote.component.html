@@ -5,7 +5,7 @@
 <app-quote-detail [quotess]='quote'></app-quote-detail>
 </p> -->
 <body>
-    
+    <div class="container">
     <div class="row">
 
         <div class="col-md-4" *ngFor='let quote of quotesr ; let i = index'>
@@ -18,6 +18,10 @@
           </div>
         <!-- form selector -->
         <!-- testtsstststsstss -->
+        <div class="col-md-4, center">
+            <app-like></app-like>
+          </div>
         
     </div>
+</div>
 </body>
